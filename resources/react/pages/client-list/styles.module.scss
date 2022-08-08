@@ -1,0 +1,33 @@
+.clientList {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  padding: 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.loading {
+  width: 100%;
+  padding: 4rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add {
+  margin: 0;
+  right: 20;
+  bottom: 20;
+  position: 'fixed';
+};
+
+.actions {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}

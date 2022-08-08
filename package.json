@@ -1,0 +1,61 @@
+{
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "build": "mix",
+        "dev": "mix watch --hot",
+        "prod": "NODE_ENV=production mix"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.18.6",
+        "@emotion/react": "^11.10.0",
+        "@emotion/styled": "^11.10.0",
+        "@hookform/resolvers": "^2.9.7",
+        "@mui/icons-material": "^5.8.4",
+        "@mui/material": "^5.9.3",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+        "@types/react": "^18.0.15",
+        "@types/react-dom": "^18.0.6",
+        "@types/react-google-recaptcha": "^2.1.5",
+        "@types/react-router-dom": "^5.3.3",
+        "@types/yup": "^0.29.14",
+        "@typescript-eslint/eslint-plugin": "^5.32.0",
+        "@typescript-eslint/parser": "^5.32.0",
+        "axios": "^0.27.2",
+        "eslint": "^8.21.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "laravel-mix": "^6.0.49",
+        "prettier": "^2.7.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-google-recaptcha": "^2.1.0",
+        "react-hook-form": "^7.34.0",
+        "react-refresh": "^0.14.0",
+        "react-router-dom": "^6.3.0",
+        "sass": "^1.54.3",
+        "sass-loader": "^13.0.2",
+        "ts-loader": "^9.3.1",
+        "typescript": "^4.7.4",
+        "yup": "^0.32.11"
+    }
+}
